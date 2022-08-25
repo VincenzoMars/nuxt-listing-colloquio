@@ -1,0 +1,29 @@
+@use '../variables.scss' as variables;
+
+#listing-filters {
+    flex-grow: 1;
+    border-right: 1px solid #0000001A;
+    margin-top: 42px;
+
+    .listing-filters {
+        &__categories {
+            margin-right: 20px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            .categories-title {
+                text-transform: uppercase;
+            }
+
+            .category-label,
+            .sub-category-label {
+                margin-top: 8px;
+            }
+
+            .sub-category-label {
+                padding-left: 20px;
+            }
+
+            border-bottom: 1px solid #0000001A;
+        }
+    }
+}

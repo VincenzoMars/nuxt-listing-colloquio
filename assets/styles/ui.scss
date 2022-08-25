@@ -1,0 +1,160 @@
+@use './variables.scss' as variables;
+
+.button {
+    &-primary {
+        border-radius: 100px;
+        border: 2px solid #FFFFFF;
+        padding: 15px 40px;
+        background-color: transparent;
+        cursor: pointer;
+        height: fit-content;
+        transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    
+        span {
+            text-transform: uppercase;
+            line-height: 1;
+        }
+
+        &:not(.button-disabled):hover {
+            background-color: rgba($color: #ffffff, $alpha: 0.2);
+            transition: background-color 0.3s ease-in-out;
+        }
+    }
+    &-disabled {
+        opacity: 0.4;
+        transition: opacity 0.3s ease-in-out;
+        cursor: not-allowed;
+    }
+}
+
+
+.checkbox {
+    &-primary {
+        &:hover {
+            .fake-checkbox {
+                border-color: #0000002a;
+                transition: border-color 0.2s ease-in-out;
+            }
+    
+            .text {
+                color: variables.$grey-1;
+                transition: color 0.2s ease-in-out;
+            }
+        }
+    
+        position: relative;
+        cursor: pointer;
+        .text {
+            user-select: none;
+            text-transform: uppercase;
+            display: block;
+            margin-right: 15px;
+            transition: color 0.2s ease-in-out;
+        }
+
+        input {
+            visibility: hidden;
+        }
+    
+        .fake-checkbox {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: 0;
+            top: -3px;
+            background-color: white;
+            border: 2px solid #0000001A;
+            transition: border-color 0.2s ease-in-out;
+    
+            i {
+                display: none;
+                font-size: 10px;
+                font-weight: 200;
+            }
+        }
+        
+        input:checked {
+            & ~ .fake-checkbox {
+                background-color: variables.$complementary;
+                border: none;
+    
+                i {
+                    display: block;
+                }
+            }
+            & ~ .text {
+                color: variables.$complementary;
+            }
+        }
+    }
+
+    &-filters {
+        &:hover {
+            .fake-checkbox {
+                border-color: #0000002a;
+                transition: border-color 0.2s ease-in-out;
+            }
+        }
+
+        input {
+            visibility: hidden;
+        }
+    
+        position: relative;
+        cursor: pointer;
+        .text {
+            user-select: none;
+            display: block;
+            color: black;
+            margin-left: 15px;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .rating {
+            margin-left: 15px;
+            i {
+                color: variables.$primary;
+                transition: color 0.2s ease-in-out;
+            }
+        }
+    
+        .fake-checkbox {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 0;
+            top: 0;
+            background-color: white;
+            border: 2px solid #0000001A;
+            transition: border-color 0.2s ease-in-out;
+    
+            i {
+                display: none;
+                font-size: 10px;
+                font-weight: 200;
+            }
+        }
+        
+        input:checked {
+            & ~ .fake-checkbox {
+                background-color: variables.$complementary;
+                border: none;
+    
+                i {
+                    display: block;
+                }
+            }
+            & ~ .text {
+                color: variables.$complementary;
+            }
+
+            & ~ .rating {
+                i {
+                    color: variables.$complementary;
+                    transition: color 0.2s ease-in-out;
+                }
+            }
+        
+        }
+    }
+}

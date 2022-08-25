@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'icomoon';
+	src:  url('../fonts/icomoon/icomoon.eot?xfh39r');
+	src:  url('../fonts/icomoon/icomoon.eot?xfh39r#iefix') format('embedded-opentype'),
+	  url('../fonts/icomoon/icomoon.ttf?xfh39r') format('truetype'),
+	  url('../fonts/icomoon/icomoon.woff?xfh39r') format('woff'),
+	  url('../fonts/icomoon/icomoon.svg?xfh39r#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+  
+.icon-arrow-left:before {
+	content: "\e904";
+}
+.icon-arrow-right:before {
+	content: "\e905";
+}
+.icon-arrow-top:before {
+	content: "\e906";
+}
+.icon-arrow_bottom:before {
+	content: "\e907";
+}
+.icon-check:before {
+	content: "\e912";
+}
+.icon-preferiti:before {
+	content: "\e92d";
+}
+.icon-preferiti-pieno:before {
+	content: "\e92e";
+	color: red;
+}
+.icon-rating-off:before {
+	content: "\e92f";
+}
+.icon-rating-on:before {
+	content: "\e930";
+}
+  

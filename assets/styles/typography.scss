@@ -1,0 +1,99 @@
+* {
+    font-family: 'Avenir';
+    font-weight: 400;
+}
+
+.color {
+    &-primary {
+        color: $primary!important
+    }
+    &-secondary {
+        color: $secondary!important
+    }
+    &-complementary {
+        color: $complementary!important
+    }
+    &-black {
+        color: black!important
+    }
+    &-white {
+        color: white!important
+    }
+    &-grey {
+        &-1 {
+            color: $grey-1!important
+        }
+        &-2 {
+            color: $grey-2!important
+        }
+        &-3 {
+            color: $grey-3!important
+        }
+    }
+}
+
+.f-size {
+    &-12 {
+        font-size: 12px!important
+    }
+    &-15 {
+        font-size: 15px!important
+    }
+    &-20 {
+        font-size: 20px!important
+    }
+}
+
+.f-weight {
+    &-black {
+        font-weight: 900!important
+    }
+    &-regular {
+        font-weight: 500!important
+    }
+    &-book {
+        font-weight: 400!important
+    }
+    &-light {
+        font-weight: 300!important
+    }
+}
+
+.letter-spacing {
+    &-none {
+        letter-spacing: 0!important
+    }
+    &-small {
+        letter-spacing: 0.6px!important
+    }
+}
+
+.text-align {
+    &-center {
+        text-align: center!important
+    }
+    &-left {
+        text-align: left!important
+    }
+    &-right {
+        text-align: right!important
+    }
+}
+
+.line-height {
+    &-0 {
+        line-height: 0!important;
+    }
+    &-15 {
+        line-height: 15px!important
+    }
+    &-20 {
+        line-height: 20px!important
+    }
+    &-22 {
+        line-height: 22px!important
+    }
+    &-25 {
+        line-height: 25px!important
+    }
+}

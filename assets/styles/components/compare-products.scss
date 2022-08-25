@@ -1,0 +1,17 @@
+@use '../variables.scss' as variables;
+
+#compare-products {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    left: 0;
+    bottom: 0;
+    background-color: variables.$complementary;
+    padding: 0px 30px;
+
+    .compare-products {
+        &__button {
+            align-self: center;
+        }
+    }
+}

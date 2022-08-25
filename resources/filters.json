@@ -1,0 +1,120 @@
+[
+    {
+        "name": "chooseFor",
+        "label": "Scegli Per",
+        "values": [
+            {
+                "id": "1",
+                "label": "Disponibili"
+            },
+            {
+                "id": "2",
+                "label": "In promozione"
+            }
+        ]
+    },
+    {
+        "name": "brand",
+        "label": "Marche",
+        "values": [
+            {
+                "id": "3",
+                "label": "Ariston"
+            },
+            {
+                "id": "4",
+                "label": "Baxi"
+            }
+        ]
+    },
+    {
+        "name": "powerType",
+        "label": "Tipologia",
+        "values": [
+            {
+                "id": "5",
+                "label": "A Condensazione"
+            },
+            {
+                "id": "6",
+                "label": "Camera Aperta"
+            },
+            {
+                "id": "7",
+                "label": "Camera Stagna"
+            }
+        ]
+    },
+    {
+        "name": "powerSupply",
+        "label": "Alimentazione",
+        "values": [
+            {
+                "id": "8",
+                "label": "Elettrica"
+            },
+            {
+                "id": "9",
+                "label": "Metano"
+            }
+        ]
+    },
+    {
+        "name": "wattage",
+        "label": "Potenza Nominale (kW)",
+        "values": [
+            {
+                "id": "11",
+                "label": "24"
+            },
+            {
+                "id": "13",
+                "label": "28"
+            }
+        ]
+    },
+    {
+        "name": "usageType",
+        "label": "Utilizzo",
+        "values": [
+            {
+                "id": "14",
+                "label": "Esterno"
+            },
+            {
+                "id": "15",
+                "label": "Interno"
+            },
+            {
+                "id": "16",
+                "label": "Interno / Esterno"
+            }
+        ]
+    },
+    {
+        "name": "rating",
+        "label": "Recensioni",
+        "values": [
+            {
+                "id": "17",
+                "label": "5"
+            },
+            {
+                "id": "18",
+                "label": "4"
+            },
+            {
+                "id": "19",
+                "label": "3"
+            },
+            {
+                "id": "20",
+                "label": "2"
+            },
+            {
+                "id": "21",
+                "label": "1"
+            }
+        ]
+    }
+]

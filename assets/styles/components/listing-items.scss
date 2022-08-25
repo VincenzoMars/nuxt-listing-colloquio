@@ -1,0 +1,94 @@
+@use '../variables.scss' as variables;
+
+#listing-items {
+    .listing-items {
+        &__pagination-header {
+            margin-bottom: 20px;
+            .sort-by-button {
+                cursor: pointer;
+                span {
+                    padding-right: 10px;
+                }
+                i {
+                    font-size: 10px;
+                }
+            }
+        }
+        &__pagination-footer {
+            margin-top: 80px;
+            width: 100%;
+            border-top: 1px solid #0000001A;
+            margin-bottom: 45px;
+
+            .prev-button,
+            .next-button,
+            .navigation-dots {
+                margin: 30px 0px;
+            }
+
+            .prev-button {
+                i {
+                    font-size: 10px;
+                    color: #00000080;
+                }
+                span {
+                    padding-left: 5px;
+                    color: #00000080;
+                }
+
+                cursor: pointer;
+            }
+
+            .next-button {
+                i {
+                    font-size: 10px;
+                    color: variables.$complementary;
+                }
+                span {
+                    padding-right: 5px;
+                    color: variables.$complementary;
+                }
+
+                cursor: pointer;
+            }
+
+            .navigation-dots {
+                .dot {
+                    cursor: pointer;
+                    padding: 9px 14px;
+                    border-radius: 50%;
+                    border: none;
+                    color: #00000080;
+                    background-color: transparent;
+                    transition: background-color 0.2s ease-in-out;
+
+                    &.active-dot {
+                        cursor: auto;
+                        background-color: variables.$complementary;
+                        color: white;
+                        
+                        &:hover {
+                            background-color: rgba($color: variables.$complementary, $alpha: .9);
+                            transition: background-color 0.2s ease-in-out;
+                        }
+                    }
+
+                    &:not(.active-dot):hover {
+                        background-color: rgba($color: lightgrey, $alpha: .5);
+                        transition: background-color 0.2s ease-in-out;
+                    }
+                }
+            }
+        }
+        &__wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 30px;
+            row-gap: 35px;
+        
+            @media screen and (max-width: variables.$grid-breakpoint-xxl) {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@use '../variables.scss' as variables;
+
+#listing-filter {
+    margin-bottom: 30px;
+    .listing-filter {
+        &__title {
+            text-transform: uppercase;
+        }
+
+        &__checkbox {
+            margin-top: 10px;
+
+            .rating {
+                i {
+                    padding-right: 5px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

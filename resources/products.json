@@ -1,0 +1,350 @@
+[
+    {
+        "id": "0",
+        "brand":"Ariston",
+        "name":"Matis condens - Condensing Boiler ",
+        "consumption": "24 kW Methane",
+        "wattage": 24,
+        "usageType": "indoor-outdoor",
+        "basePrice": "1.570,00 €",
+        "discount": {
+            "isActive": true,
+            "percentage": 20,
+            "price": "1.350,00 €"
+        },
+        "powerSupply": "Metano",
+        "powerType": "A Condensazione",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 5,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": ["2","1"],
+            "brand": "3",
+            "powerType": "5",
+            "powerSupply": "9",
+            "wattage": "11",
+            "usageType": "16",
+            "rating": "17"
+        }
+    },
+    {
+        "id": "1",
+        "brand":"Ariston",
+        "name":"Genus One Condensing Boiler - ",
+        "consumption": "24 kW",
+        "wattage": 24,
+        "usageType": "outdoor",
+        "basePrice": "927,00 €",
+        "discount": {
+            "isActive": true,
+            "percentage": 20,
+            "price": "899,00 €"
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "A Condensazione",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 4,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": ["2","1"],
+            "brand": "3",
+            "powerType": "5",
+            "powerSupply": "8",
+            "wattage": "11",
+            "usageType": "14",
+            "rating": "18"
+        }
+    },
+    {
+        "id": "2",
+        "brand":"Baxi",
+        "name":"Luna Duo-Tec Condensing Boiler - ",
+        "consumption": "28 kW",
+        "wattage": 28,
+        "usageType": "outdoor",
+        "basePrice": "790,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "A Condensazione",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 4,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "4",
+            "powerType": "5",
+            "powerSupply": "8",
+            "wattage": "13",
+            "usageType": "14",
+            "rating": "18"
+        }
+    },
+    {
+        "id": "3",
+        "brand":"Baxi",
+        "name":"Genus One Condensing Boiler - ",
+        "consumption": "24 kW",
+        "wattage": 24,
+        "usageType": "outdoor",
+        "basePrice": "960,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "A Condensazione",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 2,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "4",
+            "powerType": "5",
+            "powerSupply": "8",
+            "wattage": "11",
+            "usageType": "14",
+            "rating": "20"
+        }
+    },
+    {
+        "id": "4",
+        "brand":"Baxi",
+        "name":"Prime Condensing Boiler - ",
+        "consumption": "28 kW",
+        "wattage": 28,
+        "usageType": "outdoor",
+        "basePrice": "890,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "A Condensazione",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 3,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "4",
+            "powerType": "5",
+            "powerSupply": "8",
+            "wattage": "13",
+            "usageType": "14",
+            "rating": "19"
+        }
+    },
+    {
+        "id": "5",
+        "brand":"Ariston",
+        "name":"Matis condens - Condensing Boiler ",
+        "consumption": "24 kW Methane",
+        "wattage": 24,
+        "usageType": "indoor-outdoor",
+        "basePrice": "1.120,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Metano",
+        "powerType": "A Condensazione",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 1,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "3",
+            "powerType": "5",
+            "powerSupply": "9",
+            "wattage": "11",
+            "usageType": "16",
+            "rating": "21"
+        }
+    },
+    {
+        "id": "6",
+        "brand":"Baxi",
+        "name":"Luna Duo-Tec Condensing Boiler - ",
+        "consumption": "28 kW",
+        "wattage": 28,
+        "usageType": "outdoor",
+        "basePrice": "927,00 €",
+        "discount": {
+            "isActive": true,
+            "percentage": 16,
+            "price": "790,00 €"
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "Camera Aperta",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 3,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": ["2","1"],
+            "brand": "4",
+            "powerType": "6",
+            "powerSupply": "8",
+            "wattage": "13",
+            "usageType": "14",
+            "rating": "19"
+        }
+    },
+    {
+        "id": "7",
+        "brand":"Baxi",
+        "name":"Genus One Condensing Boiler - ",
+        "consumption": "24 kW",
+        "wattage": 24,
+        "usageType": "outdoor",
+        "basePrice": "960,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "Camera Stagna",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 4,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "4",
+            "powerType": "7",
+            "powerSupply": "8",
+            "wattage": "11",
+            "usageType": "14",
+            "rating": "18"
+        }
+    },
+    {
+        "id": "8",
+        "brand":"Ariston",
+        "name":"Genus One Condensing Boiler - ",
+        "consumption": "24 kW",
+        "wattage": 24,
+        "usageType": "outdoor",
+        "basePrice": "927,00 €",
+        "discount": {
+            "isActive": true,
+            "percentage": 20,
+            "price": "899,00 €"
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "A Condensazione",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 4,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": ["2","1"],
+            "brand": "3",
+            "powerType": "5",
+            "powerSupply": "8",
+            "wattage": "11",
+            "usageType": "14",
+            "rating": "18"
+        }
+    },
+    {
+        "id": "9",
+        "brand":"Baxi",
+        "name":"Genus One Condensing Boiler - ",
+        "consumption": "24 kW",
+        "wattage": 24,
+        "usageType": "indoor-outdoor",
+        "basePrice": "960,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "Camera Aperta",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 5,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "4",
+            "powerType": "6",
+            "powerSupply": "8",
+            "wattage": "11",
+            "usageType": "16",
+            "rating": "17"
+        }
+    },
+    {
+        "id": "10",
+        "brand":"Ariston",
+        "name":"Matis condens - Condensing Boiler ",
+        "consumption": "24 kW Methane",
+        "wattage": 24,
+        "usageType": "indoor",
+        "basePrice": "1.120,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Metano",
+        "powerType": "Camera Stagna",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 3,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "3",
+            "powerType": "7",
+            "powerSupply": "9",
+            "wattage": "11",
+            "usageType": "15",
+            "rating": "19"
+        }
+    },
+    {
+        "id": "11",
+        "brand":"Baxi",
+        "name":"Prime Condensing Boiler - ",
+        "consumption": "28 kW",
+        "wattage": 28,
+        "usageType": "indoor",
+        "basePrice": "890,00 €",
+        "discount": {
+            "isActive": false,
+            "percentage": 0,
+            "price": null
+        },
+        "powerSupply": "Elettrica",
+        "powerType": "Camera Stagna",
+        "isAvailable": true,
+        "isServiceIncluded": true,
+        "rating": 3,
+        "imageUrl": "src/assets/boiler.png",
+        "filters": {
+            "chooseFor": "1",
+            "brand": "4",
+            "powerType": "7",
+            "powerSupply": "8",
+            "wattage": "13",
+            "usageType": "15",
+            "rating": "19"
+        }
+    }
+]

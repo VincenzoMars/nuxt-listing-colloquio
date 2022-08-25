@@ -1,0 +1,92 @@
+@use '../variables.scss' as variables;
+
+#product-item {
+    width: 290px;
+    position: relative;
+
+    @media screen and (max-width: variables.$grid-breakpoint-xxl) {
+        width: 350px;
+    }
+
+    @media screen and (max-width: variables.$grid-breakpoint-xl) {
+        width: 310px;
+    }
+}
+
+.product-item {
+
+    &__discount-label {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        padding: 5px 10px;
+        background-color: variables.$secondary;
+    }
+
+    &__wishlist-badge {
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        cursor: pointer;
+
+        i {
+            font-size: 20px;
+            color: #00000033;
+        }
+    }
+
+    &__image {
+        background-color: #00000008;
+    }
+
+    &__brand {
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    .description {
+        &__consumption {
+            display: block;
+        }
+    }
+
+    &__price {
+        .price {
+            &__discount {
+                .discounted {
+                    margin-right: 10px;
+                }
+                .base {
+                    align-self: flex-end;
+                    text-decoration: line-through;
+                }
+            }
+            
+            /* &__no-discount {
+                .base {
+
+                }
+            } */
+        }
+    }
+
+    &__divider-line {
+        margin-top: 5px;
+        width: 100%;
+        height: 1px;
+        background-color: #0000001A;
+    }
+
+    &__rating-stars {
+        margin-top: 10px;
+        i {
+            font-size: 11px;
+            color: #00000033;
+            margin-right: 5px;
+        }
+    }
+
+    &__compare-checkbox {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+.compare-swipe-up-enter-active,
+.compare-swipe-up-leave-active {
+  transition: transform 0.4s cubic-bezier(.65,.27,.25,.95);
+}
+
+.compare-swipe-up-enter-from,
+.compare-swipe-up-leave-to {
+  transform: translateY(100%);
+}
