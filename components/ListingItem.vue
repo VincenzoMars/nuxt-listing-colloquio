@@ -103,7 +103,6 @@ export default {
             this.isOnWishlist = this.wishlistItems().find(item => item === this.product.id)
         },
         compareToggle() {
-            console.log('compareToggle')
             return !this.isCompareProductActive
                 ? this.$store.commit('listing/addCompareProductId', this.product.id)
                 : this.$store.commit('listing/removeCompareProductId', this.product.id)

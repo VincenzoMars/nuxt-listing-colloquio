@@ -30,7 +30,6 @@ export default {
         state.listing.compareProductIds.push(productId)
     },
     removeCompareProductId(state, productId) {
-        console.log('remove', productId)
         state.listing.compareProductIds= state.listing.compareProductIds.filter(compareProductId => compareProductId !== productId)
     },
     flushCompareProductIds(state) {
