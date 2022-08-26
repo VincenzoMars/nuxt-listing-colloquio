@@ -73,16 +73,16 @@ export default {
             return this.product.discount.isActive 
         },
         isCompareProductActive() {
-            // return this.$store.getters['listing/getCompareProductIds'].some(compareProductId => compareProductId === this.product.id)
-             return this.$store.getters['listing/getCompareProductIds'].includes(compareProductId => compareProductId === this.product.id)
+             // eslint-disable-next-line unicorn/prefer-includes
+             return this.$store.getters['listing/getCompareProductIds'].some(compareProductId => compareProductId === this.product.id)
         }
     },
     mounted() {
         this.setIsOnWishlist()
-        this.emitter.on("flushCompareProducts", this.flushCompareProduct);
+        this.$nuxt.$on("flushCompareProducts", this.flushCompareProduct);
     },
     destroyed() {
-        this.emitter.off("flushCompareProducts", this.flushCompareProduct);
+        this.$nuxt.$off("flushCompareProducts", this.flushCompareProduct);
     },
     methods: {
         wishlistToggle() {
@@ -103,6 +103,7 @@ export default {
             this.isOnWishlist = this.wishlistItems().find(item => item === this.product.id)
         },
         compareToggle() {
+            console.log('compareToggle')
             return !this.isCompareProductActive
                 ? this.$store.commit('listing/addCompareProductId', this.product.id)
                 : this.$store.commit('listing/removeCompareProductId', this.product.id)

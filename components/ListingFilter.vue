@@ -37,7 +37,7 @@ export default {
         setListingFilter($event, filterValue) {
             // when use filters, if there are active compare products, then reset their checkboxes and flush them from state to avoid bugs
             if (this.$store.getters['listing/getCompareProductIds'].length) {
-                this.emitter.emit("flushCompareProducts");
+                this.$nuxt.$emit("flushCompareProducts");
             }
             $event.currentTarget.checked
                 ? this.$store.commit('listing/addFilterValue', filterValue)

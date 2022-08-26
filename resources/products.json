@@ -17,7 +17,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 5,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": ["2","1"],
             "brand": "3",
@@ -46,7 +46,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 4,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": ["2","1"],
             "brand": "3",
@@ -75,7 +75,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 4,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "4",
@@ -104,7 +104,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 2,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "4",
@@ -133,7 +133,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 3,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "4",
@@ -162,7 +162,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 1,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "3",
@@ -191,7 +191,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 3,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": ["2","1"],
             "brand": "4",
@@ -220,7 +220,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 4,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "4",
@@ -249,7 +249,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 4,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": ["2","1"],
             "brand": "3",
@@ -278,7 +278,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 5,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "4",
@@ -307,7 +307,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 3,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "3",
@@ -336,7 +336,7 @@
         "isAvailable": true,
         "isServiceIncluded": true,
         "rating": 3,
-        "imageUrl": "src/assets/boiler.png",
+        "imageUrl": "../assets/boiler.png",
         "filters": {
             "chooseFor": "1",
             "brand": "4",
