@@ -9,15 +9,15 @@ export default {
   },
   createFilters({ commit, dispatch, getters }) {
     getters.getTotalProducts.forEach(product => {
-      Object.entries(product.filters).forEach(productFilter => {
-        const filter = getters.getFilterByName(productFilter[0])
-        if (Array.isArray(productFilter[1])) {
+      Object.entries(product.filters).forEach(([filterName, filterValue]) => {
+        const filter = getters.getFilterByName(filterName)
+        if (Array.isArray(filterValue)) {
           // if a product value is an array and has more selections, then iterate each value selected and create values for filters
-          productFilter[1].forEach(productValue => {
+          filterValue.forEach(productValue => {
               dispatch('createValue', { product, filter, productValue })
           })
         } else {
-            const productValue = productFilter[1]
+            const productValue = filterValue
             dispatch('createValue', { product, filter, productValue })
         }
       })
