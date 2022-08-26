@@ -11,6 +11,9 @@ export default {
     getTotalFilters: (state) => {
         return state.listing.totalFilters
     },
+    getFilterByName: (state) => (filterName) => {
+        return state.listing.totalFilters.find(filter => filter.name === filterName)
+    },
     getActiveFilters: (state) => {
         return state.listing.activeFilters
     },

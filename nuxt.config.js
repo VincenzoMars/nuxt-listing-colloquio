@@ -32,8 +32,19 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
-
+  modules: [
+    '@nuxtjs/axios'
+  ],
+  axios: {
+    // proxy: true
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  env: {
+    BASE_URL: 'https://nuxt-listing-default-rtdb.firebaseio.com',
+    API: {
+      URL: 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=',
+      KEY: 'AIzaSyC19ixV-H_Da_vIMdawHIE6lv-OWHu6yog'
+    }
+  }
 }
