@@ -36,4 +36,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  env: {
+    BASE_URL: 'https://nuxt-listing-default-rtdb.firebaseio.com'
+  }
 }

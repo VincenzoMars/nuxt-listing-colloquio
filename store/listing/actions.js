@@ -1,9 +1,9 @@
 export default {
   async loadResources({ commit, dispatch }) {
-    const products = await fetch(`https://nuxt-listing-default-rtdb.firebaseio.com/products.json`).then(res => res.json())
+    const products = await fetch(process.env.BASE_URL+`/products.json`).then(res => res.json())
     commit('setTotalProducts', products)
     commit('setActiveProducts', products)
-    const filters = await fetch(`https://nuxt-listing-default-rtdb.firebaseio.com/filters.json`).then(res => res.json())
+    const filters = await fetch(process.env.BASE_URL+`/filters.json`).then(res => res.json())
     commit('setTotalFilters', filters)
     dispatch('createFilters')
   },
